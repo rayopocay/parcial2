@@ -43,7 +43,11 @@ form {
   background: #fff;
   padding: 2rem 2.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 
+    -8px -8px 20px rgba(10, 132, 255, 0.5),
+    8px -8px 20px rgba(12, 255, 113, 0.737),
+    8px 8px 20px rgba(255, 145, 10, 0.5),
+    -8px 8px 20px rgba(179, 10, 246, 0.773);
   width: 100%;
   max-width: 400px;
 }
@@ -75,7 +79,7 @@ input {
 input:focus {
   outline: none;
   border-color: #4a90e2;
-  box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.459);
 }
 
 button {
